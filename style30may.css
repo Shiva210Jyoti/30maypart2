@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: url('https://th.bing.com/th/id/OIP.eqTLrFFICcMU3yQ12xhFZQHaEK?rs=1&pid=ImgDetMain') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  border-bottom: 3px solid #333;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  font-family: 'Georgia', serif;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #222;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #555;
+}
+
+nav a:hover {
+  background-color: #444;
+}
+
+.section {
+  margin: 20px;
+  border: 2px dashed #888;
+  padding: 10px 20px;
+}
+
+.section h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #fff;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px;
+  justify-content: flex-start;
+}
+
+.gallery img {
+  width: 130px;
+  height: 180px;
+  object-fit: cover;
+  border: 2px solid #555;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  border-color: #0af;
+}
